@@ -1,0 +1,31 @@
+.messageView {
+    width: 90%;
+
+    box-sizing: border-box;
+    padding: 2px 5px;
+    margin: 8px 0;
+
+    display: flex;
+    align-self: flex-start;
+
+    border-radius: 5px;
+
+    background: darkseagreen;
+    color: darkgreen;
+}
+
+.myMessageView {
+    align-self: flex-end;
+
+    background: lightskyblue;
+    color: midnightblue;
+}
+
+.systemMessageView {
+    width: 100%;
+
+    box-sizing: border-box;
+
+    text-align: center;
+    color: gray;
+}
